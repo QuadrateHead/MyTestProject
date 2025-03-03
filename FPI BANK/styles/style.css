@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(fonts/Comic\ Sans\ MS.ttf);
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    font-family: "Comic Sans MS";
+}
+h1{
+    margin: 0.5rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6BD877;
+    color: #079748;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    height: 7rem;
+}
+nav{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    padding: 0 3rem 0 0;
+}
+.second{
+    padding: 0 0 0 3rem;
+}
+footer{
+    background-color: #079748;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #6BD877;
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+}
+
+@media (min-width:1080px) {
+    header{
+        height: 42rem;
+        font-weight: 700;
+        line-height: 150%;
+        padding: 6rem;
+        margin-bottom: 4rem;
+        
+    }
+    h1{
+        font-size: 19.2rem;
+    }
+    
+}
+

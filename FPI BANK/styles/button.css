@@ -1,0 +1,36 @@
+button{
+    background-color:#079748;
+    color: #6BD877;
+    border-radius: 0.5rem;
+    border-style: none;
+    width: 7rem;
+    height: 3rem;
+    font-family: "Comic Sans MS";
+    font-weight: 700;
+    margin: 0 0.5rem;
+}
+button:hover{
+    background-color:#6BD877;
+    color: #079748;
+    border-radius: 0.5rem;
+    border-style: none;
+    width: 7rem;
+    height: 3rem;
+    font-family: "Comic Sans MS";
+    font-weight: 700;
+    margin: 0 0.5rem;
+}
+@media (min-width:1080px) {
+    button{
+        height: 24rem;
+        width: 40rem;
+        margin: 0 3rem;
+        border-radius: 1rem;
+    }
+    button:hover{
+        height: 12rem;
+        width: 24rem;
+        margin: 0 3rem;
+        border-radius: 1rem;
+    }
+}
